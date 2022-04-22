@@ -263,7 +263,7 @@ Speaker Area Start
 .sec_right img{
 	position: relative;
 	border-radius: 50%;
-	z-index: 1;
+	z-index: 5;
 	height: 130px;
 	width: 130px;
 	transition: .3s;
