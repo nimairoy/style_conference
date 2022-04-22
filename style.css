@@ -1,0 +1,516 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+/* Common CSS */
+
+body{
+	margin: 0;
+	padding: 0;
+    background: #293f50;
+    color: #888;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+}
+p {
+    line-height: 25px;
+}
+a{
+	text-decoration: none;
+}
+h4 {
+    font-size: 22px;
+    color: #000;
+}
+h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #444;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+.active{
+	color: #648880;
+}
+.btn {
+	border: 1px solid #fff;
+	padding: 20px 35px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-top: 15px;
+	transition: .4s;
+}
+.container{
+	padding-left: 80px;
+	padding-right: 80px;
+	margin: 0 auto;
+}
+.pt-3{
+	padding-top: 30px;
+}
+.mt-15{
+	margin-top: 15px;
+	display: inline-block;
+}
+.mobile_menu_icon{
+	display: none;
+}
+/* =====Header Area Start===== */
+
+.header {
+	width: 100%;
+	background: #293f50;
+	height: 160px;
+}
+.header .logo{
+	width: 30%;
+	float: left;
+    margin-top: 5px;
+}
+.header .logo a h1{
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1.1;
+	letter-spacing: .5px;
+	transition: .4s;
+
+}
+.header .logo a h1:hover{
+	color: #648880;
+}
+.header .main_menu nav ul li:hover a{
+	color: #648880;
+}
+.header .main_menu{
+	width: 70%;
+	height: 180px;
+	float: left;
+	text-align: right;
+	margin-top: 25px;
+}
+.hero_section {
+	padding-bottom: 50px;
+}
+.hero_section h3,
+.main_menu p{
+	color: #648880;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+nav ul li a{
+	font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .4s;
+
+}
+.hero_section{
+	text-align: center;
+}
+.hero_section h3{
+	font-size: 36px;
+	font-weight: 100;
+}
+.hero_section p {
+	width: 60%;
+	margin: auto;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Poppins-Thin';
+
+}
+.hero_section .btn:hover{
+	color: #648880;
+	background: #fff;
+}
+/* =====Header Area End===== */
+
+/* =====Home Area Start===== */
+.home{
+	background: #fff;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.col-4{
+	width: 32%;
+	padding: 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.home img {
+    width: 90%;
+    border-radius: 5px;
+}
+/* =====Home Area End===== */
+
+/* =====Footer Area Start===== */
+.footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer ul{
+	text-align: right;
+}
+.footer ul li{
+	display: inline-block;
+}
+.footer .main_menu {
+	width: 80%;
+	display: inline-block;
+
+}
+
+.ft_logo {
+	display: inline-block;
+}
+.ft_logo a h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-left: 20px;
+    transition: .4s;
+}
+.ft_logo a h1:hover {
+    color: #648880;
+}
+.footer ul li a {
+    color: #fff;
+    margin-left: 10px;
+    transition: .4s;
+}
+.footer ul li a:hover{
+	color: #648880;
+}
+/* =====Footer Area End===== */
+
+
+/* 
+=======================
+Speaker Area Start
+=======================
+*/
+.sec_heading{
+	background: #cbe2c1;
+	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+	padding: 30px 0px;
+	text-align: center;
+}
+.sec_heading h2{
+	font-size: 36px;
+	color: #648880;
+	margin: 0;
+}
+.sec_heading h2{
+	margin-bottom: 20px;
+}
+.sec_heading p{
+	font-size: 22px;
+	line-height: 40px;
+	width: 70%;
+	margin: auto;
+
+}
+.main_section{
+	background: #fff;
+	overflow: hidden;
+	padding: 15px 0px;
+}
+.main_section .sec_left{
+	width: 60%;
+	display: inline-block;
+	float: left;
+}
+.main_section .sec_left h3 {
+    font-size: 28px;
+    color: #648880;
+}
+ .main_section .sec_left h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+ .main_section .sec_left p{
+    text-align: justify;
+}
+.main_section .sec_right{
+	width: 38%;
+	float: left;
+	text-align: center;	
+	position: relative;
+	top: 60px;
+}
+
+.sec_right img{
+	position: relative;
+	border-radius: 50%;
+	z-index: 1;
+	height: 130px;
+	width: 130px;
+	transition: .3s;
+}
+.sec_right:hover img{
+	transform: scale(.9);
+}
+ .sec_right .border{ 
+ 	width: 280px; 
+ 	height: 170px; 
+ 	border: 1px solid #dfe2e5;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    transition: .3s;
+    cursor: pointer;
+}
+ .sec_right .border:hover{
+	box-shadow: 0.1px 0.4px 5px rgba(168, 154, 154, 0.8);
+
+ }
+.sec_right .border ul{
+	margin-top: 80px;
+}
+.sec_right .border ul li a{
+	color: #648880;
+	transition: .4s;
+}
+.sec_right .border ul li a:hover{
+	color:#a9b2b9;
+}
+/* 
+=======================
+Speaker Area End
+=======================
+*/
+
+/* 
+=======================
+Schedule Area Start
+=======================
+*/
+.schedule_details{
+	background: #fff;
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+table:last-child {
+  margin-bottom: 0;
+}
+
+th,
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+th {
+  padding-right: 45px;
+  text-align: right;
+  width: 20%;
+}
+td {
+  width: 40%;
+}
+
+thead {
+  line-height: 44px;
+}
+thead th {
+  color: #648880;
+  font-size: 24px;
+}
+
+tbody th {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+
+tbody td {
+  border-top: 1px solid #dfe2e5;
+  padding-top: 21px;
+}
+tbody td:first-of-type {
+  padding-right: 15px;
+}
+tbody td:last-of-type {
+  padding-left: 15px;
+}
+tbody td:only-of-type {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+table a {
+  color: #888;
+}
+table h4 p{
+	margin: 0;
+}
+table h4 {
+  margin-bottom: 0;
+  margin: 0;
+  color: #648880;
+  font-size: 18px;
+}
+
+.schedule-offset {
+  color: #a9b2b9;
+}
+/* 
+=======================
+Schedule Area End
+=======================
+*/
+
+/* 
+=======================
+Register Area Start
+=======================
+*/
+.venue,
+.register{
+	padding-bottom: 100px;
+}
+.venue .sec_left,
+.register .sec_left{
+	padding-left: 80px;
+	width: 50%;
+}
+.register .sec_left h4{
+	color: #648880;
+	font-size: 20px;
+}
+.register .sec_left ul {
+	padding-left: 40px;
+}
+.register .sec_left ul li{
+	list-style-type: square;
+	line-height: 24px;
+}
+.register .sec_right{
+	text-align: left;
+	left: 10%;
+	top: 35px;
+
+}
+.register label {
+	cursor: pointer;
+	display: block;
+}
+.register select,
+.register textarea,
+.register input {
+    display: block;
+    width: 60%;
+    margin: 5px 0px 25px 0px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #c6c9cc;
+}
+.register select:focus,
+.register textarea:focus,
+.register input:focus{
+	outline: .5px solid #07078f;
+}
+.register select {
+    width: 15%;
+}
+.register input[type="submit"] {
+    background: #648880;
+    width: 32%;
+    height: 40px;
+    transition: .4s;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.register input[type="submit"]:hover{
+	background: #77a198;
+	color: #fff;
+}
+/* 
+=======================
+Register Area End
+=======================
+*/
+
+/* 
+=======================
+venue Area Start
+=======================
+*/
+
+.venue .sec_left{
+	width: 30%;
+	margin-top: 40px;
+}
+.venue .sec_right {
+    width: 60%;
+    left: -30px;
+    top: 25px;
+}
+.venue .sec_left h3 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+.venue .sec_left a {
+    color: #888;
+    transition: .3s;
+    position: relative;
+}
+.venue .sec_left a::after {
+    position: absolute;
+    content: '';
+    background: #888;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    transition: .4s;
+    right: 100%;
+}
+.venue .sec_left a:hover{
+	color: #648880;
+}
+.venue .sec_left a:hover::after{
+    right: 0;
+}
+.venue .sec_right iframe{
+	width: 90%;
+	height: 265px;
+}
+/*
+=======================
+venue Area End
+=======================
+*/
+
